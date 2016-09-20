@@ -1,0 +1,101 @@
+
+#content{
+    width: 1000px;
+    margin: 15px auto;
+}
+#pic,#list{
+    float: left;
+}
+#pic div{
+    width: 233px;
+    height: 95px;
+}
+#list{
+    width: 750px;
+    height: 890px;
+    border: 1px solid #ccc;
+    margin-left: 15px;
+    margin-top: 42px;
+    margin-bottom: 20px;
+}
+.caption{
+    width: inherit;
+    height: 55px;
+    line-height: 55px;
+    border-bottom: 1px solid #efefef;
+}
+.caption span:first-of-type{
+    font-size: 20px;
+    font-weight: bold;
+    color: #b91c17;
+}
+.caption span:last-of-type{
+    float: right;
+    font-size: 13px;
+}
+.caption i{
+    margin-left: 15px;
+    width: 9px;
+    height: 11px;
+    background: url("../school/center_right_top1.png") no-repeat;
+    display: inline-block;
+}
+.childNav{
+    height: 48px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.childNav li{
+    list-style: none;
+    float: left;
+    width: 90px;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    position: relative;
+}
+.childNav li a{
+    display: block;
+}
+.navText{
+    font-weight: bold;
+}
+.navImg{
+    width: 11px;
+    height: 9px;
+    background: url("../school/nav.png") no-repeat bottom;
+    background-size: 11px 9px;
+    display: inline-block;
+    position: absolute;
+    left: 40px;
+    top: 48px;
+}
+.list{
+    margin-top: 15px;
+}
+.listStyle{
+    padding: 10px 0;
+    margin: 0 auto;
+    list-style: none;
+    width: 680px;
+    height: 20px;
+    border-bottom: 1px dashed #ccc;
+}
+.listStyle div{
+    font-size: 13px;
+    height: 18px;
+    line-height: 18px;
+    padding-left: 10px;
+    border-left: 4px solid #b91c17;
+}
+.listStyle div a{
+    cursor: pointer;
+}
+.listStyle div span:first-of-type{
+    font-size: 13px;
+    color: #ff9900;
+}
+.listStyle div span:last-of-type{
+    font-size: 13px;
+    float: right;
+    color: #999;
+}

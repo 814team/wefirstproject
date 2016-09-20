@@ -1,0 +1,96 @@
+#content{
+    width: 1020px;
+    height: auto;
+    margin: 0 auto;
+}
+#content .part{
+    float: left;
+    margin: 15px 10px;
+}
+#carousel{
+    width: 491px;
+    height: 302px;
+    overflow: hidden;
+    position: relative;
+}
+#carousel ul:first-of-type{
+    width: 2455px;
+    height: 302px;
+}
+#carousel ul:last-of-type{
+    width: 155px;
+    height: 20px;
+    position: absolute;
+    right:0;
+    bottom: 0;
+}
+#carousel ul:last-of-type li{
+    /*background-color: #575757;*/
+    color: #fff;
+    text-align: center;
+    width: 30px;
+    height: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    border-right: 1px solid #fff;
+    cursor: pointer;
+}
+#carousel ul li{
+    list-style: none;
+    float: left;
+}
+#newsPart{
+    width: 489px;
+    height: 323px;
+    margin-left: 10px;
+}
+.title{
+    width: inherit;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    border-bottom: 3px solid #b91c17;
+}
+.title span{
+    font-size: 20px;
+    font-weight: bold;
+    color: #be3936;
+}
+.title a{
+    float: right;
+    color: #999;
+}
+#content ul li{
+    list-style: none;
+    height: 24px;
+    line-height: 24px;
+}
+#content div ul li span{
+    color: #999;
+    float: right;
+}
+.part{
+    width: 315px;
+    height: auto;
+}
+#pic{
+    width: 335px;
+    float: right;
+    margin-top: 40px;
+}
+#pic img{
+    margin-top: 10px;
+}
+#link{
+    clear: both;
+    height: 150px;
+    line-height: 150px;
+    background: url("../school/7.png") no-repeat left center;
+}
+#link a{
+    margin-left: 20px;
+}
+#link a:first-of-type{
+    margin-left: 160px;
+}

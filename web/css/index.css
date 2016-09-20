@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding: 0;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+header{
+    width: 100%;
+    height: 275px;
+    background: #b91c17 url("../school/images/1.png") no-repeat 50% 45%;
+}
+#msg{
+    margin: 0 auto;
+    width: 1000px;
+    height: 35px;
+    line-height: 35px;
+    color: #fff;
+    font-size: 12px;
+}
+#msg a{
+    margin-left: 2px;
+    float: right;
+}
+nav{
+    width: 1000px;
+    height: 40px;
+    line-height: 40px;
+    margin: 199px auto;
+    color: #fff;
+    font-size: 14px;
+    border: 1px solid #fa908f;
+    border-bottom: 0;
+
+}
+nav ul li{
+    text-align: center;
+    background-color: #b41b00;
+    list-style: none;
+    float: left;
+    width: 90px;
+}
+nav ul li a {
+    display: block;
+}
+#search{
+    width: auto;
+    position: relative;
+}
+#search input{
+    border: 0;
+    width: 180px;
+    height: 29px;
+    border-radius: 5px;
+}
+#search i{
+    width: 29px;
+    height: 25px;
+    background: url("../school/search.png") no-repeat 0 0;
+    background-size: 28px 25px;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+}
+footer{
+    clear: both;
+    text-align: center;
+    width: auto;
+    height: 160px;
+    border-top: 1px solid #dbdbdb;
+}
+footer p{
+    margin: 18px auto;
+}
+.activeNav{
+    background-color: #b3802b
+}
+.activeCarousel{
+    background-color: #c3424a;
+}
