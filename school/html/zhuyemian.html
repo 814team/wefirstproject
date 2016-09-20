@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="maximum-scale=1.0,minimum-scale=1.0,initial-scale=1.0,user-scalable=0,width=device-width">
+    <title>顶部页面</title>
+    <link rel="stylesheet" type="text/css" href="../css/top.css">
+    <link rel="stylesheet" type="text/css" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        .show-window {
+            display: inline-block;
+            width: 491px;
+            height: 302px;
+            position: relative;
+            overflow: hidden;
+            border: 1px solid black;
+        }
+
+        .imgs {
+            width: 1964px;
+            height: 170px;
+            position: absolute;
+            left:0;
+        }
+
+        .imgs img {
+            float: left;
+        }
+
+        .num {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .num ul {
+            list-style-type: none;
+            text-align: center;
+            color: white;
+        }
+
+        .num ul li {
+            width: 25px;
+            height: 25px;
+            line-height: 25px;
+            float: left;
+            margin-right: 5px;
+            background-color: #f90;
+            border-radius: 50%;
+            opacity: 0.6;
+        }
+
+        .num ul li:hover {
+            background-color: red;
+            font-weight: 700;
+            opacity: 0.6;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+<div class="div_body">
+    <div class="container1">
+        <div class="kongbai"></div>
+        <div class="show-window">
+            <div class="imgs">
+                <img src="./images/lunch1.png" style="overflow: hidden">
+                <img src="./images/lunch1.png">
+                <img src="./images/lunch1.png">
+                <img src="./images/lunch1.png">
+            </div>
+            <div class="num">
+                <ul>
+                    <li onclick="moveToImgByIndex(0)">1</li>
+                    <li onclick="moveToImgByIndex(1)">2</li>
+                    <li onclick="moveToImgByIndex(2)">3</li>
+                    <li onclick="moveToImgByIndex(3)">4</li>
+                </ul>
+            </div>
+        </div>
+        <div class="show-window" style="width: 46%">
+            <div class="news_top">
+                <div class="news_top1">更多</div>
+                <p style="font-size: 20px;font-weight: 700;color: red;line-height: 40px">新闻动态</p>
+            </div>
+            <div class="new_bottom">
+                <ul style="font-weight: 800">
+                    <li> 中原工学院攻读双学士学位申请 双学位培养计划 </li>
+                    <li> 中原工学院攻读双学士学位申请 双学位培养计划 </li>
+                    <li> 中原工学院攻读双学士学位申请 双学位培养计划 </li>
+                    <li> 中原工学院攻读双学士学位申请 双学位培养计划 </li>
+                    <li> 中原工学院攻读双学士学位申请 双学位培养计划 </li>
+                    <li> 中原工学院攻读双学士学位申请 双学位培养计划 </li>
+                </ul>
+            </div>
+        </div>
+        <div class="new">
+     <div class="news_left">
+        <div class="news">
+            <div class="news_top">
+                <div class="news_top1">更多</div>
+                <p style="font-size: 20px;font-weight: 700;color: red;line-height: 40px">新闻动态</p>
+            </div>
+            <div class="new_bottom">
+                <ul style="font-weight: 800;list-style-type: none">
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                </ul>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news_top">
+                <div class="news_top1">更多</div>
+                <p style="font-size: 20px;font-weight: 700;color: red;line-height: 40px">新闻动态</p>
+            </div>
+            <div class="new_bottom">
+                <ul style="font-weight: 800;list-style-type: none">
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                </ul>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news_top">
+                <div class="news_top1">更多</div>
+                <p style="font-size: 20px;font-weight: 700;color: red;line-height: 40px">新闻动态</p>
+            </div>
+            <div class="new_bottom">
+                <ul style="font-weight: 800;list-style-type: none">
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                </ul>
+            </div>
+        </div>
+        <div class="news">
+            <div class="news_top">
+                <div class="news_top1">更多</div>
+                <p style="font-size: 20px;font-weight: 700;color: red;line-height: 40px">新闻动态</p>
+            </div>
+            <div class="new_bottom">
+                <ul style="font-weight: 800;list-style-type: none">
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                    <li> 中原工学院攻读双学士</li>
+                </ul>
+            </div>
+        </div>
+     </div>
+     <div class="news_right">
+          <img src="./images/3.png">
+          <img src="./images/4.png">
+          <img src="./images/5.png">
+          <img src="./images/6.png">
+     </div>
+        </div>
+
+
+        <div class="botton">
+            <img src="./images/lianjie.png">
+            <span class="botton1"><a href="#"> 河南省教师资格网</a></span>
+            <span class="botton1">河南省教育厅</span>
+            <span class="botton1">河南省计算机网</span>
+            <span class="botton1">河南省教师资格网</span>
+            <span class="botton1">河南省高位</span>
+        </div>
+    </div>
+
+</div>
+<script>
+    var currentImgIndex = 0;//存储当前页index
+    var moveController = 0;//从当前页跳转到目标页用到的时钟；
+
+    /**
+     * 初始化num
+     */
+    changeNumber();
+    /**
+     * 每间隔3s轮播跳转一次
+     */
+    var imgChangeController;//每间隔一段时间（暂定为3s）页面跳转一次的时钟控制器；
+    imgChangeController = setInterval(imgChange, 3000);
+    function imgChange() {
+        var nextImgIndex = currentImgIndex + 1 ;
+        //当下一个页面的index为img的总数的时候，将nextImgIndex设为0；
+        if (nextImgIndex >= (document.querySelectorAll("img").length - 6)) {
+            nextImgIndex = 0;
+        }
+        moveToImgbyIndex(nextImgIndex);
+    }
+    /**
+     * 轮播页面由当前页移动到下一页
+     * @param index
+     */
+    function moveToImgbyIndex(index) {
+        if (moveController == 0) {
+            //当前页面的left
+            var currentImgLeft = -currentImgIndex * 491;
+            //目标页面的left
+            var nextImgLeft = -index * 491;
+            //移动10次的step
+            var step = (nextImgLeft - currentImgLeft) / 10;
+//            console.log(step);
+            //每次移动1s种，每步移动 0.5 / 10 秒钟
+            var count = 0;
+            var imgs = document.querySelector(".imgs");
+            moveController = setInterval(function () {
+                currentImgLeft += step;
+                imgs.style.left = currentImgLeft + "px";
+                count++;
+                if (count > 9) {
+                    //停止移动
+                    clearInterval(moveController);
+                    moveController = 0;
+//                    console.log(moveController);
+                    //将当前页面设置为目标页面，以为移动已经完成；
+                    currentImgIndex = index;
+                    //数值改变
+                    changeNumber();
+                }
+            }, 50);
+        }
+    }
+
+    /**
+     * num改变
+     */
+    function changeNumber() {
+        var lis = document.querySelectorAll(".num ul li");
+        for (var i = 0; i < lis.length; i++) {
+            var li = lis[i];
+            li.style.fontWeight = 400;
+            li.style.backgroundColor = "#f90";
+        }
+        var currentLi = lis[currentImgIndex];
+        currentLi.style.fontWeight = 700;
+        currentLi.style.backgroundColor = "red";
+    }
+
+    /**
+     * 添加监听事件
+     */
+    document.querySelector(".show-window").onmouseover = function () {
+        clearInterval(imgChangeController);
+    };
+    document.querySelector(".show-window").onmouseout = function () {
+        imgChangeController = setInterval(imgChange, 3000);
+    };
+    //监听浏览器是否最小化
+    document.addEventListener("webkitvisibilitychange", function () {
+        if (document.webkitVisibilityState == "hidden") {
+            clearInterval(imgChangeController);
+        } else {
+            imgChangeController = setInterval(imgChange, 3000);
+        }
+//        console.log(document.webkitVisibilityState);
+        //ie:document.msVisibilityState;
+        //火狐：document.mozVisibilityState;
+        //chrome/safri:document.webkitVisibilityState;
+    });
+
+</script>
+</body>
+</html>
